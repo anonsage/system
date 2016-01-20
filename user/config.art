@@ -1,0 +1,8 @@
+app
+  com.anonsage:calculator
+  com.anonsage:explorer
+  com.anonsage:notes
+  com.anonsage:social
+
+game
+  com.anonsage:minesweeper
