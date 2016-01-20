@@ -1,0 +1,36 @@
+;; Configure keyboard shortcuts.
+;;
+;; Modifier keys:
+;; - os for commands that aren't directed into apps (aka, windows-key or apple-key)
+;; - app for commands that apps can control (aka, control-key or command-key)
+;; - shift for extra key usages
+;; - alt for alternative key usages
+;;
+;; Other reserved symbols: tab, menu, up, right, down, left, enter, backspace, delete, home, end, esc, page-up, page-down, insert, and those in the format of F# or F##, where # is a number.
+
+config
+  is-disable-system-shortcuts-for-games false
+
+system-command os+c 'Open prompt to send commands to the system, like search and open-app'
+system-help os+/ os+? 'Open system help information, including keyboard shortcuts'
+system-toggle-app-focus os+tab
+system-move-app-up os+up 'Move app to full-screen, then to top-half, then top-quarter'
+system-move-app-right os+right 'Move app to right-half, then the next monitor'
+system-move-app-down os+down 'Move app to the bottom-half, then bottom-quarter, then minimized'
+system-move-app-left os+left 'Move app to left-half, then the previous monitor'
+
+app-close app+q ;; Same as quit
+app-copy app+c
+app-cut app+x
+app-find app+f
+app-new app+n
+app-open-file app+o
+app-paste app+v
+app-print command.app-share ;; Same as app-share.
+app-redo app+shift+z
+app-save app+s
+app-save-as app+shift+s
+app-select-all app+a
+app-share app+p
+app-toggle-focus app+tab
+app-undo app+z
