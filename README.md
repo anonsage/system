@@ -13,3 +13,8 @@ Things are as simple as they seem because they were made that way.
 - Customizable
   - Config files are full featured and as simple to adjust as text files.
 - Full support for keyboard-power-users.
+
+
+
+# Resources
+- https://anonsage.com
